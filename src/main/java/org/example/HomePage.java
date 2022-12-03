@@ -227,7 +227,12 @@ public class HomePage extends Utils
 
 
 
+        @Test
 
+    public void clickOnCategory(String category)
+        {
+            clickOnElement(By.linkText(category));
+        }
 
 
 
